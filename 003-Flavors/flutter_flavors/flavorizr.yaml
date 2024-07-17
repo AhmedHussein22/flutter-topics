@@ -1,0 +1,22 @@
+
+flavors:
+  # dev and prod are the flavors
+
+  # dev is the development flavor
+  dev:
+    app:
+      name: "AppName Dev"
+      icon: "assets/Flavors_dev_app_icon.png"
+    android:
+      applicationId: "com.Flavors.AppName.dev"
+    ios:
+      bundleId: "AppName.Flavors.sa.dev"
+  # prod is the production flavor
+  prod:
+    app:
+      name: "AppName"
+      icon: "assets/Flavors_prod_app_icon.png"
+    android:
+      applicationId: "com.Flavors.AppName"
+    ios:
+      bundleId: "AppName.Flavors.sa"

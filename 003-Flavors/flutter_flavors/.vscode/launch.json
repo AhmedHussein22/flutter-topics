@@ -1,0 +1,91 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    // Debug Configurations
+    {
+      "name": "Flutter Dev (Debug - Android)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_dev.dart",
+      "args": [
+        "--flavor",
+        "dev"
+      ]
+    },
+    {
+      "name": "Flutter Dev (Debug - iOS)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_dev.dart",
+      "args": [
+        "--flavor",
+        "dev"
+      ]
+    },
+    {
+      "name": "Flutter Prod (Debug - Android)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_prod.dart",
+      "args": [
+        "--flavor",
+        "prod"
+      ]
+    },
+    {
+      "name": "Flutter Prod (Debug - iOS)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_prod.dart",
+      "args": [
+        "--flavor",
+        "prod"
+      ]
+    },
+    // Release Configurations
+    {
+      "name": "Flutter Dev (Release - Android)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_dev.dart",
+      "args": [
+        "--flavor",
+        "dev",
+        "--release"
+      ]
+    },
+    {
+      "name": "Flutter Dev (Release - iOS)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_dev.dart",
+      "args": [
+        "--flavor",
+        "dev",
+        "--release"
+      ]
+    },
+    {
+      "name": "Flutter Prod (Release - Android)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_prod.dart",
+      "args": [
+        "--flavor",
+        "prod",
+        "--release"
+      ]
+    },
+    {
+      "name": "Flutter Prod (Release - iOS)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_prod.dart",
+      "args": [
+        "--flavor",
+        "prod",
+        "--release"
+      ]
+    }
+  ]
+}
