@@ -3,89 +3,50 @@
   "configurations": [
     // Debug Configurations
     {
-      "name": "Flutter Dev (Debug - Android)",
+      "name": "Flutter Dev (Debug)",
       "request": "launch",
       "type": "dart",
       "program": "lib/main_dev.dart",
-      "args": [
-        "--flavor",
-        "dev"
-      ]
+      "args": ["--flavor", "dev"]
     },
     {
-      "name": "Flutter Dev (Debug - iOS)",
-      "request": "launch",
-      "type": "dart",
-      "program": "lib/main_dev.dart",
-      "args": [
-        "--flavor",
-        "dev"
-      ]
-    },
-    {
-      "name": "Flutter Prod (Debug - Android)",
+      "name": "Flutter Prod (Debug)",
       "request": "launch",
       "type": "dart",
       "program": "lib/main_prod.dart",
-      "args": [
-        "--flavor",
-        "prod"
-      ]
+      "args": ["--flavor", "prod"]
     },
-    {
-      "name": "Flutter Prod (Debug - iOS)",
-      "request": "launch",
-      "type": "dart",
-      "program": "lib/main_prod.dart",
-      "args": [
-        "--flavor",
-        "prod"
-      ]
-    },
+
     // Release Configurations
     {
-      "name": "Flutter Dev (Release - Android)",
+      "name": "Flutter Dev (Release)",
       "request": "launch",
       "type": "dart",
       "program": "lib/main_dev.dart",
-      "args": [
-        "--flavor",
-        "dev",
-        "--release"
-      ]
+      "args": ["--flavor", "dev", "--release"]
     },
     {
-      "name": "Flutter Dev (Release - iOS)",
+      "name": "Flutter Prod (Release)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_prod.dart",
+      "args": ["--flavor", "prod", "--release"]
+    },
+
+    // Profile Configurations
+    {
+      "name": "Flutter Dev (Profile)",
       "request": "launch",
       "type": "dart",
       "program": "lib/main_dev.dart",
-      "args": [
-        "--flavor",
-        "dev",
-        "--release"
-      ]
+      "args": ["--flavor", "dev", "--profile"]
     },
     {
-      "name": "Flutter Prod (Release - Android)",
+      "name": "Flutter Prod (Profile)",
       "request": "launch",
       "type": "dart",
       "program": "lib/main_prod.dart",
-      "args": [
-        "--flavor",
-        "prod",
-        "--release"
-      ]
-    },
-    {
-      "name": "Flutter Prod (Release - iOS)",
-      "request": "launch",
-      "type": "dart",
-      "program": "lib/main_prod.dart",
-      "args": [
-        "--flavor",
-        "prod",
-        "--release"
-      ]
+      "args": ["--flavor", "prod", "--profile"]
     }
   ]
 }
