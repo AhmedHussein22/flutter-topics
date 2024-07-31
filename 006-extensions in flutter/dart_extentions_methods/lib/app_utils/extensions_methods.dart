@@ -60,7 +60,6 @@ extension ContextExtension on BuildContext {
 }
 
 //! numbers Extension
-
 extension AppNumberExtension on num {
   //************ Padding *********************/
   EdgeInsets get allPadding => EdgeInsets.all(toDouble().r);
