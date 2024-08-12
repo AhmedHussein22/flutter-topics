@@ -4,7 +4,7 @@ class CheckboxButtonExampleChangeNotifier extends StatelessWidget {
   final CheckboxState checkboxState = CheckboxState();
 
   CheckboxButtonExampleChangeNotifier({super.key});
-
+  
   @override
   Widget build(BuildContext context) {
     // check if the build method is called again when the state changes
