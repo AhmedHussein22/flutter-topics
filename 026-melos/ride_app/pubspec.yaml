@@ -1,0 +1,31 @@
+name: ride_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  core:
+    path: packages/core
+  auth:
+    path: packages/auth
+  client:
+    path: packages/client
+  driver:
+    path: packages/driver
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  melos: ^6.3.2
+
+flutter:
+  uses-material-design: true

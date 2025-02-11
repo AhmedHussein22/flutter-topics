@@ -1,0 +1,6 @@
+name: ride_app
+packages:
+  - packages/core
+  - packages/auth
+  - packages/client
+  - packages/driver
