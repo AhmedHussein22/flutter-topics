@@ -1,0 +1,53 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      //! Debug Configurations
+      {
+        "name": "Flutter Dev (Debug)",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main_dev.dart",
+        "args": ["--flavor", "dev", "--dart-define-from-file", ".env"]
+      },
+      {
+        "name": "Flutter Prod (Debug)",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main_prod.dart",
+        "args": ["--flavor", "prod", "--dart-define-from-file", ".env"]
+      },
+  
+      //! Release Configurations
+      {
+        "name": "Flutter Dev (Release)",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main_dev.dart",
+        "args": ["--flavor", "dev", "--release", "--dart-define-from-file", ".env"]
+      },
+      {
+        "name": "Flutter Prod (Release)",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main_prod.dart",
+        "args": ["--flavor", "prod", "--release", "--dart-define-from-file", ".env"]
+      },
+  
+      //! Profile Configurations
+      {
+        "name": "Flutter Dev (Profile)",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main_dev.dart",
+        "args": ["--flavor", "dev", "--profile", "--dart-define-from-file", ".env"]
+      },
+      {
+        "name": "Flutter Prod (Profile)",
+        "request": "launch",
+        "type": "dart",
+        "program": "lib/main_prod.dart",
+        "args": ["--flavor", "prod", "--profile", "--dart-define-from-file", ".env"]
+      }
+    ]
+  }
+  
